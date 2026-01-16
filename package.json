@@ -1,0 +1,28 @@
+{
+  "name": "@ethan/cli",
+  "version": "1.0.0",
+  "description": "Ethan构建工具 - 基于Vite的通用前端脚手架",
+  "main": "index.js",
+  "bin": {
+    "ethan": "./bin/ethan.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "vue",
+    "vite",
+    "scaffold"
+  ],
+  "author": "Ethan",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.22",
+    "ora": "^8.0.1"
+  }
+}

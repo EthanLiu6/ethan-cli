@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+*.log
+.vscode
+.idea
+.env.local
+.env.*.local
+
+# 忽略模版项目中可能生成的 node_modules
+template/**/node_modules
+template/**/dist
