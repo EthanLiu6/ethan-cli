@@ -1,0 +1,8 @@
+# 发布到 GitHub Packages 的配置
+# 将此文件放在项目根目录
+
+# 1. 指定作用域对应的注册表
+@EthanLiu6:registry=https://npm.pkg.github.com
+
+# 2. 如果是私有包，需要配置认证（发布或安装时需要）
+# //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
