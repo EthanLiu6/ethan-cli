@@ -1,6 +1,6 @@
 {
-  "name": "@EthanLiu6/cli",
-  "version": "1.0.3",
+  "name": "@ethanliu6/cli",
+  "version": "1.0.4",
   "description": "Ethan构建工具 - 基于Vite的通用前端脚手架",
   "repository": {
     "type": "git",

@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '20'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@EthanLiu6'
+          scope: '@ethanliu6'
       - run: npm install
       # 指定 registry 确保发布到 GitHub
       - run: npm publish --registry=https://npm.pkg.github.com
