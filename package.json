@@ -1,14 +1,26 @@
 {
-  "name": "@ethan/cli",
+  "name": "@EthanLiu6/cli",
   "version": "1.0.0",
   "description": "Ethan构建工具 - 基于Vite的通用前端脚手架",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanLiu6/ethan-cli.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "index.js",
   "bin": {
-    "ethan": "./bin/ethan.js"
+    "ethan": "bin/ethan.js"
   },
+  "files": [
+    "bin",
+    "template"
+  ],
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "npm pack"
   },
   "keywords": [
     "cli",
