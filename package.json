@@ -1,13 +1,10 @@
 {
   "name": "@EthanLiu6/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ethan构建工具 - 基于Vite的通用前端脚手架",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EthanLiu6/ethan-cli.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   },
   "main": "index.js",
   "bin": {
